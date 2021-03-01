@@ -1,0 +1,13 @@
+D:\Repositories\GFT_Start\GFT_Start_2\GFT_Start_2\bin\Debug\netcoreapp3.1\GFT_Start_2.exe
+D:\Repositories\GFT_Start\GFT_Start_2\GFT_Start_2\bin\Debug\netcoreapp3.1\GFT_Start_2.deps.json
+D:\Repositories\GFT_Start\GFT_Start_2\GFT_Start_2\bin\Debug\netcoreapp3.1\GFT_Start_2.runtimeconfig.json
+D:\Repositories\GFT_Start\GFT_Start_2\GFT_Start_2\bin\Debug\netcoreapp3.1\GFT_Start_2.runtimeconfig.dev.json
+D:\Repositories\GFT_Start\GFT_Start_2\GFT_Start_2\bin\Debug\netcoreapp3.1\GFT_Start_2.dll
+D:\Repositories\GFT_Start\GFT_Start_2\GFT_Start_2\bin\Debug\netcoreapp3.1\GFT_Start_2.pdb
+D:\Repositories\GFT_Start\GFT_Start_2\GFT_Start_2\obj\Debug\netcoreapp3.1\GFT_Start_2.csprojAssemblyReference.cache
+D:\Repositories\GFT_Start\GFT_Start_2\GFT_Start_2\obj\Debug\netcoreapp3.1\GFT_Start_2.AssemblyInfoInputs.cache
+D:\Repositories\GFT_Start\GFT_Start_2\GFT_Start_2\obj\Debug\netcoreapp3.1\GFT_Start_2.AssemblyInfo.cs
+D:\Repositories\GFT_Start\GFT_Start_2\GFT_Start_2\obj\Debug\netcoreapp3.1\GFT_Start_2.csproj.CoreCompileInputs.cache
+D:\Repositories\GFT_Start\GFT_Start_2\GFT_Start_2\obj\Debug\netcoreapp3.1\GFT_Start_2.dll
+D:\Repositories\GFT_Start\GFT_Start_2\GFT_Start_2\obj\Debug\netcoreapp3.1\GFT_Start_2.pdb
+D:\Repositories\GFT_Start\GFT_Start_2\GFT_Start_2\obj\Debug\netcoreapp3.1\GFT_Start_2.genruntimeconfig.cache

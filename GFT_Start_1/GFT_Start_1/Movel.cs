@@ -4,21 +4,22 @@ using System.Text;
 
 namespace GFT_Start_1
 {
-/*     A classe Movel deverá acrescentar 11% imposto no valor final se
-    quantidade for menor que 10 e 5% se quantidade for maior ou igual a
-    10.*/
     class Movel : Produto
     {
-        public Eletronico() : base()
+        public Movel(string nome, int quantidade, double valor) : base(nome, quantidade, valor)
         {
-
+        }
+        public override double calcularValorFinal(int quantidade, double valor)
+        {
+            return quantidade >= 10 ? Math.Round((quantidade * valor) * 1.05, 2) : Math.Round((quantidade * valor) * 1.11, 2);
         }
 
-        public double calcularValorFinal(double valor, int quantidade)
+        public override string ToString()
         {
-            double total;
-            total = valor * quantidade;
-            return total + total * 0.1;
+            return "Produto: " + Nome
+            + ", Quantidade: " + Quantidade
+            + ", Valor: R$" + Valor
+            + " -> Total: R$" + calcularValorFinal(Quantidade, Valor);
         }
     }
 }

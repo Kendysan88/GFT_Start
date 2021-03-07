@@ -4,20 +4,22 @@ using System.Text;
 
 namespace GFT_Start_1
 {
-    A classe Eletrônico deverá acrescentar 15% de imposto no valor final.
     class Eletronico : Produto
     {
-        public Eletronico(): base()
+        public Eletronico(string nome, int quantidade, double valor) : base(nome, quantidade, valor)
         {
+        }
+        public override double calcularValorFinal(int quantidade, double valor)
+        {
+            return Math.Round((quantidade * valor) * 1.15, 2);
 
         }
-
-
-        public double calcularValorFinal(double valor, int quantidade)
+        public override string ToString()
         {
-            double total;
-            total = valor * quantidade;
-            return total + total * 0.1;
+            return "Produto: " + Nome 
+                + ", Quantidade: "+ Quantidade 
+                + ", Valor: R$" + Valor 
+                + " -> Total: R$" + calcularValorFinal(Quantidade, Valor);
         }
     }
 }

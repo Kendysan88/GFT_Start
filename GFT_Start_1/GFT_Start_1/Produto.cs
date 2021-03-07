@@ -10,20 +10,28 @@ namespace GFT_Start_1
         private double valor;
         private int quantidade;
 
-
         public string Nome { get; set; }
-
-        public double Valor { get; set; }
-
+        public double Valor { get; set; } 
         public int Quantidade { get; set; }
 
-
-        public double calcularValorFinal(double valor, int quantidade)
+        public Produto(string nome, int quantidade, double valor)
         {
-            double total;
-            total = valor * quantidade;
-            return total + total*0.1;
+            this.Nome = nome;
+            this.Quantidade = quantidade;
+            this.Valor = valor;
         }
-        
+
+        public virtual double calcularValorFinal(int quantidade, double valor)
+        {
+            return Math.Round((valor * quantidade) * 1.1, 2);
+        }
+
+        public override string ToString()
+        {
+            return "Produto: " + Nome
+            + ", Quantidade: " + Quantidade
+            + ", Valor: R$" + Valor
+            + " -> Total: R$" + calcularValorFinal(Quantidade, Valor);
+        }
     }
 }
